@@ -14,3 +14,7 @@ def estimate_pi(num_samples=1000000):
     # Ratio of points inside circle to total points
     return 4 * inside_circle / num_samples
 
+
+if __name__ == "__main__":
+    pi_estimate = estimate_pi()
+    print(f"Estimated value of π: {pi_estimate}")
