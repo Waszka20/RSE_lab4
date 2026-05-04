@@ -1,7 +1,10 @@
+"""bla bla bla"""
+
 import random
 
 
 def estimate_pi(num_samples=10000000):
+    """Estimate the value of π using the Monte Carlo method."""
     inside_circle = 0
 
     for _ in range(num_samples):
@@ -17,5 +20,5 @@ def estimate_pi(num_samples=10000000):
 
 
 if __name__ == "__main__":
-    pi_estimate = estimate_pi()
-    print(f"Estimated value of π: {pi_estimate}")
+    PI_ESTIMATE = estimate_pi()
+    print(f"Estimated value of π: {PI_ESTIMATE}")
